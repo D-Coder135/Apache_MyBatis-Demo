@@ -10,7 +10,7 @@ public interface CustomerDao {
     @Insert("insert into customer (name, city, email, phone) values (#{name}, #{city}, #{email}, #{phone})")
     public void addCustomer(Customer customer);
 
-    @Select()
+    @Select("select * from customer where id=#{id}")
     public Customer getCustomerById(Integer id);
 
     // QUERIES
