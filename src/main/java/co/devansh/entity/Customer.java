@@ -7,8 +7,11 @@
 
 package co.devansh.entity;
 
+import lombok.Data;
+
 import java.util.Objects;
 
+@Data
 public class Customer {
     private Integer id;
     private String name;
