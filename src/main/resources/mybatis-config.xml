@@ -16,6 +16,6 @@
     </environments>
 
     <mappers>
-
+        <mapper class="co.devansh.dao.CustomerDao" />
     </mappers>
 </configuration>
