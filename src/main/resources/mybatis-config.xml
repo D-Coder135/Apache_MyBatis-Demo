@@ -7,10 +7,10 @@
         <environment id="development">
             <transactionManager type="JDBC" />
             <dataSource type="POOLED">
-                <property name="driver" value="" />
-                <property name="url" value="" />
-                <property name="username" value="" />
-                <property name="password" value="" />
+                <property name="driver" value="org.h2.Driver" />
+                <property name="url" value="jdbc:h2:tcp://localhost/~/training" />
+                <property name="username" value="devansh" />
+                <property name="password" value="secret" />
             </dataSource>
         </environment>
     </environments>
