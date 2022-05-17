@@ -13,4 +13,7 @@ public class Customer {
     private String city;
     private String email;
     private String phone;
+
+    public Customer() {
+    }
 }
