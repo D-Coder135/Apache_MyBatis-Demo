@@ -11,12 +11,14 @@ package co.devansh.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.Objects;
 
 //@Data
 @NoArgsConstructor
 @Getter
+@Setter
 public class Customer {
     private Integer id;
     private String name;
