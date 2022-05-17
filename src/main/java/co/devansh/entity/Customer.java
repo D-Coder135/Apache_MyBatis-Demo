@@ -9,12 +9,14 @@ package co.devansh.entity;
 
 //import lombok.Data;
 
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.Objects;
 
 //@Data
 @NoArgsConstructor
+@Getter
 public class Customer {
     private Integer id;
     private String name;
