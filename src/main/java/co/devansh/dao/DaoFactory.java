@@ -9,6 +9,6 @@ package co.devansh.dao;
 
 public final class DaoFactory {
 
-    public DaoFactory() {
+    private DaoFactory() {
     }
 }
