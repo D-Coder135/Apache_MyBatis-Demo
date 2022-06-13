@@ -7,5 +7,6 @@
 
 package co.devansh.dao;
 
-public class DaoFactory {
+public final class DaoFactory {
+
 }
