@@ -28,5 +28,6 @@ public interface CustomerDao {
     @Select("select * from customer")
     public List<Customer> getAllCustomers();
 
+    @Select("select * from customer where city=#{city}")
     public List<Customer> getCustomerByCity(String city);
 }
