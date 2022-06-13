@@ -13,5 +13,6 @@ public interface CustomerDao {
     @Select("select * from customer where id=#{id}")
     public Customer getCustomerById(Integer id);
 
+    public void updateCustomer(Customer customer);
     // QUERIES
 }
