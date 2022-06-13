@@ -9,12 +9,14 @@ package co.devansh.dao;
 
 import org.apache.ibatis.io.Resources;
 
+import java.io.InputStream;
+
 public final class DaoFactory {
 
     private DaoFactory() {
     }
 
     public static CustomerDao getCustomerDao() {
-        Resources.getResourceAsStream("mybatis-config.xml");
+        InputStream is = Resources.getResourceAsStream("mybatis-config.xml");
     }
 }
