@@ -16,5 +16,7 @@ public interface CustomerDao {
 
     @Update("update customer set name=#{name}, city=#{city}, email=#{email}, phone=#{phone} where id=#{id}")
     public void updateCustomer(Customer customer);
+
+    public void deleteCustomer(Integer id);
     // QUERIES
 }
