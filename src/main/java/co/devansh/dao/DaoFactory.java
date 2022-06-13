@@ -22,6 +22,6 @@ public final class DaoFactory {
     public static CustomerDao getCustomerDao() throws IOException {
         InputStream is = Resources.getResourceAsStream("mybatis-config.xml");
         SqlSessionFactory factory = new SqlSessionFactory().build(is);
-
+        SqlSession session = factory.openSession();
     }
 }
