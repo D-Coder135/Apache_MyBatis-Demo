@@ -8,6 +8,8 @@
 package co.devansh.dao;
 
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,5 +21,7 @@ public final class DaoFactory {
 
     public static CustomerDao getCustomerDao() throws IOException {
         InputStream is = Resources.getResourceAsStream("mybatis-config.xml");
+        SqlSessionFactory factory = new SqlSessionFactory().build(is);
+
     }
 }
