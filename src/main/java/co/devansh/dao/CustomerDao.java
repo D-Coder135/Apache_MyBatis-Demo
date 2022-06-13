@@ -24,5 +24,7 @@ public interface CustomerDao {
     public void deleteCustomer(Integer id);
 
     // QUERIES
+
+    @Select("select * from customer")
     public List<Customer> getAllCustomers();
 }
