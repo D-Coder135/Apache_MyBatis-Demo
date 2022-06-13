@@ -6,6 +6,8 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
+import java.util.List;
+
 public interface CustomerDao {
     // CRUD OPERATIONS
 
@@ -20,5 +22,7 @@ public interface CustomerDao {
 
     @Delete("delete from customer where id=#{id}")
     public void deleteCustomer(Integer id);
+
     // QUERIES
+    public List<Customer> getAllCustomers();
 }
