@@ -18,5 +18,6 @@ public class AddNewCustomer {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
         Customer c1 = new Customer();
+        c1.setName("Satya");
     }
 }
