@@ -20,8 +20,8 @@ public class AddNewCustomer {
         Customer c1 = new Customer();
         c1.setName("Satya");
         c1.setCity("Shimla");
-        c1.setEmail("satya@example.com");
-        c1.setPhone("9892830220");
+        c1.setEmail("satya123@example.com");
+        c1.setPhone("9892830231");
 
         dao.addCustomer(c1);
 
