@@ -17,7 +17,10 @@ public class RetrieveCustomerById {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
-        Customer c1 = dao.getCustomerById(2);
+        int id = 2;
+        Customer c1 = dao.getCustomerById(id);
+
+
 
     }
 }
