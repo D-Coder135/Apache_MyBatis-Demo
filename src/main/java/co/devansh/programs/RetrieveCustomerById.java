@@ -20,7 +20,9 @@ public class RetrieveCustomerById {
         int id = 2;
         Customer c1 = dao.getCustomerById(id);
 
-
+        if (c1 == null) {
+            System.out.println("No customer data for id: " +id);
+        }
 
     }
 }
