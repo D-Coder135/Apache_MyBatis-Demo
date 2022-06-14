@@ -9,12 +9,15 @@ package co.devansh.programs;
 
 import co.devansh.dao.CustomerDao;
 import co.devansh.dao.DaoFactory;
+import co.devansh.entity.Customer;
 
 import java.io.IOException;
 
 public class RetrieveCustomerById {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
+
+        Customer c1 = dao.getCustomerById(2);
 
     }
 }
