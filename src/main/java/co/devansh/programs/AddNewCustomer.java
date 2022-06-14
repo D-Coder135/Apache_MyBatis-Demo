@@ -24,5 +24,7 @@ public class AddNewCustomer {
         c1.setPhone("9892830220");
 
         dao.addCustomer(c1);
+
+        System.out.println(c1);
     }
 }
