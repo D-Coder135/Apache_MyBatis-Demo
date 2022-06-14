@@ -8,4 +8,7 @@
 package co.devansh.programs;
 
 public class AddNewCustomer {
+    public static void main(String[] args) {
+
+    }
 }
