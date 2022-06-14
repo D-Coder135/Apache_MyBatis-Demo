@@ -20,5 +20,6 @@ public class AddNewCustomer {
         Customer c1 = new Customer();
         c1.setName("Satya");
         c1.setCity("Shimla");
+        c1.setEmail("satya@example.com");
     }
 }
