@@ -21,7 +21,9 @@ public class RetrieveCustomerById {
         Customer c1 = dao.getCustomerById(id);
 
         if (c1 == null) {
-            System.out.println("No customer data for id: " +id);
+            System.out.println("No customer data for id: " + id);
+        } else {
+            System.out.println(c1);
         }
 
     }
