@@ -19,6 +19,10 @@ public class DeleteCustomer {
 
         int id = 9;
         Customer c1 = dao.getCustomerById(id);
+
+        if (c1 == null) {
+            System.out.println("No data found for id: " + id);
+        }
         System.out.println("Customer with id 9 is deleted.");
     }
 }
