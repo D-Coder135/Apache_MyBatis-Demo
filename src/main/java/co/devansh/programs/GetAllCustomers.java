@@ -9,11 +9,14 @@ package co.devansh.programs;
 
 import co.devansh.dao.CustomerDao;
 import co.devansh.dao.DaoFactory;
+import co.devansh.entity.Customer;
 
 import java.io.IOException;
+import java.util.List;
 
 public class GetAllCustomers {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
+        List<Customer> list = dao.getAllCustomers();
     }
 }
