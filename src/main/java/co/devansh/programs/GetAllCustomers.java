@@ -20,5 +20,9 @@ public class GetAllCustomers {
         List<Customer> list = dao.getAllCustomers();
 
         System.out.println("There are " + list.size() + " customers.");
+
+        for (Customer customer : list) {
+
+        }
     }
 }
