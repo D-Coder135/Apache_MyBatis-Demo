@@ -18,5 +18,7 @@ public class GetAllCustomers {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
         List<Customer> list = dao.getAllCustomers();
+
+        System.out.println("There are " + list.size() + " customers.");
     }
 }
