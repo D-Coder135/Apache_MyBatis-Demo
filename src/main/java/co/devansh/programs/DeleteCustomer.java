@@ -15,5 +15,7 @@ import java.io.IOException;
 public class DeleteCustomer {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
+
+        dao.deleteCustomer(8);
     }
 }
