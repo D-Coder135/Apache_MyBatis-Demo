@@ -9,6 +9,7 @@ package co.devansh.programs;
 
 import co.devansh.dao.CustomerDao;
 import co.devansh.dao.DaoFactory;
+import co.devansh.entity.Customer;
 
 import java.io.IOException;
 
@@ -17,8 +18,7 @@ public class DeleteCustomer {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
         int id = 9;
-
-        dao.deleteCustomer(8);
+        Customer c1 = dao.getCustomerById(id);
         System.out.println("Customer with id 9 is deleted.");
     }
 }
