@@ -24,6 +24,7 @@ public class DeleteCustomer {
             System.out.println("No data found for id: " + id);
         } else {
             dao.deleteCustomer(id);
+            System.out.println("Customer with id "+id+" is deleted.");
         }
     }
 }
