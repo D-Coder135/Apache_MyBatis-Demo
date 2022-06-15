@@ -18,10 +18,10 @@ public class AddNewCustomer {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
         Customer c1 = new Customer();
-        c1.setName("Satya");
-        c1.setCity("Shimla");
-        c1.setEmail("satya123@example.com");
-        c1.setPhone("9892830231");
+        c1.setName("Akanksha");
+        c1.setCity("Varanasi");
+        c1.setEmail("akanksha123@example.com");
+        c1.setPhone("6392623475");
 
         dao.addCustomer(c1);
 
