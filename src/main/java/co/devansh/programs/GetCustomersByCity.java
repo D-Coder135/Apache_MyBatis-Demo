@@ -8,4 +8,7 @@
 package co.devansh.programs;
 
 public class GetCustomersByCity {
+    public static void main(String[] args) {
+
+    }
 }
