@@ -8,4 +8,7 @@
 package co.devansh.programs;
 
 public class GetAllCustomers {
+    public static void main(String[] args) {
+
+    }
 }
