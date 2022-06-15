@@ -22,7 +22,7 @@ public class GetAllCustomers {
         System.out.println("There are " + list.size() + " customers.");
 
         for (Customer customer : list) {
-
+            System.out.println(customer.getName() + " is from " + customer.getCity());
         }
     }
 }
