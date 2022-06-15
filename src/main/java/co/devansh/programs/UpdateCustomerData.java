@@ -24,6 +24,8 @@ public class UpdateCustomerData {
             System.out.println("No customer data for id: " + id);
         } else {
             System.out.println(c1);
+            c1.setCity("Varanasi");
+
         }
     }
 }
