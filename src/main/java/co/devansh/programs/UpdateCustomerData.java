@@ -27,6 +27,7 @@ public class UpdateCustomerData {
             c1.setCity("Varanasi");
             c1.setPhone("8542875214");
             dao.updateCustomer(c1);
+            System.out.println("After Updating => " +c1);
         }
     }
 }
