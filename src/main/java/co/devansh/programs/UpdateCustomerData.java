@@ -17,7 +17,7 @@ public class UpdateCustomerData {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
-        int id = 2;
+        int id = 1;
         Customer c1 = dao.getCustomerById(id);
 
         if (c1 == null) {
