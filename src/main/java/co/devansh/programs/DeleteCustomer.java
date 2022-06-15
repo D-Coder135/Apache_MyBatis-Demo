@@ -17,5 +17,6 @@ public class DeleteCustomer {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
         dao.deleteCustomer(8);
+        System.out.println("Customer with id 9 is deleted.");
     }
 }
