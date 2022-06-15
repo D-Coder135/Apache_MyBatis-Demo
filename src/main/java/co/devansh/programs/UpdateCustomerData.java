@@ -10,8 +10,10 @@ package co.devansh.programs;
 import co.devansh.dao.CustomerDao;
 import co.devansh.dao.DaoFactory;
 
+import java.io.IOException;
+
 public class UpdateCustomerData {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
     }
 }
