@@ -16,6 +16,8 @@ public class DeleteCustomer {
     public static void main(String[] args) throws IOException {
         CustomerDao dao = DaoFactory.getCustomerDao();
 
+        int id = 9;
+
         dao.deleteCustomer(8);
         System.out.println("Customer with id 9 is deleted.");
     }
