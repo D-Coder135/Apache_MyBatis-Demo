@@ -7,8 +7,11 @@
 
 package co.devansh.programs;
 
+import co.devansh.dao.CustomerDao;
+import co.devansh.dao.DaoFactory;
+
 public class GetAllCustomers {
     public static void main(String[] args) {
-
+        CustomerDao dao = DaoFactory.getCustomerDao();
     }
 }
