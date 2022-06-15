@@ -23,7 +23,7 @@ public class UpdateCustomerData {
         if (c1 == null) {
             System.out.println("No customer data for id: " + id);
         } else {
-            System.out.println(c1);
+            System.out.println("Before Updating => " +c1);
             c1.setCity("Varanasi");
             c1.setPhone("8542875214");
             dao.updateCustomer(c1);
