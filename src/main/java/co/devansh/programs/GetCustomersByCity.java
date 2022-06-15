@@ -21,5 +21,9 @@ public class GetCustomersByCity {
         String city = "Varanasi";
         List<Customer> list = dao.getCustomerByCity(city);
         System.out.println("There are " + list.size() + " customers from " +city);
+
+        for (Customer customer : list) {
+            System.out.println(customer.getName() + " is from " + customer.getCity());
+        }
     }
 }
